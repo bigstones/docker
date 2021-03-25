@@ -1,0 +1,12 @@
+
+# 로그뒤에 뒤에 몇줄 보기
+docker logs --tail 
+
+# 특정시간 이후 로그보기
+docker logs --since
+
+# 실시간 및 timestamp와 함께 로그보기
+docke logs -f -t
+
+# docker log 저장 장소
+/var/lib/docker/cotainers/${CONTAINER_ID}/${CONTAINER_ID}-json.log
