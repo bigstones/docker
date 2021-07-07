@@ -16,7 +16,8 @@
 
 docker 이미지 빌드
 
-    docker build --tag [name]:[tag] [repository]
+    # Dockerfile 내에서
+    docker build --tag [name]:[tag] [Dockerfile directory]
 
 docker-compose build
 
