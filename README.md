@@ -4,7 +4,7 @@
 
 docker run -it --rm -v [volume]:[docker volume] -p [portnum]:[docker portnum] [image name]:[tag]
 
-docker build --tag [name]:[tag]
+docker build --tag [name]:[tag] [repository]
 
 docker-compose build
 
