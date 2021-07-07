@@ -2,9 +2,21 @@
 
 도커 사용하면서 필요했던 내용들 모아두었습니다
 
-docker run -it --rm -v [volume]:[docker volume] -p [portnum]:[docker portnum] [image name]:[tag]
+도커 이미지 가져오기
 
-docker build --tag [name]:[tag] [repository]
+    docker pull [images name]
+
+도커 이미지 조화
+
+    docker images
+
+도커 이미지 기반 실행
+
+    docker run -it --rm -v [volume]:[docker volume] -p [portnum]:[docker portnum] [image name]:[tag]
+
+docker 이미지 빌드
+
+    docker build --tag [name]:[tag] [repository]
 
 docker-compose build
 
