@@ -2,7 +2,9 @@
 
 도커 사용하면서 필요했던 내용들 모아두었습니다
 
-docker run -it -
+docker run -it --rm -v [volume]:[docker volume] -p [portnum]:[docker portnum] [image name]:[tag]
+
+docker build --tag [name]:[tag]
 
 docker-compose build
 
