@@ -12,7 +12,7 @@
 
 도커 이미지 삭제
 
-   docker rmi [image id]
+    docker rmi [image id]
 
 도커 이미지 기반 실행
 
