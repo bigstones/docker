@@ -38,3 +38,25 @@ docker cli 환경 접근
 log 확인
 
     docker logs --follow [dockername]
+
+
+
+## docker 명령어
+
+FROM
+
+WORKDIR
+
+RUN
+
+ENTRYPOINT
+
+CMD
+
+EXPOSE
+
+COPY/ADD
+
+ENV
+
+ARG
