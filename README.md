@@ -6,9 +6,13 @@
 
     docker pull [images name]
 
-도커 이미지 조화
+도커 이미지 조회
 
     docker images
+
+도커 이미지 삭제
+
+   docker rmi [image id]
 
 도커 이미지 기반 실행
 
@@ -40,8 +44,7 @@ log 확인
     docker logs --follow [dockername]
 
 
-
-## docker 명령어
+## dockerfile 명령어
 
 FROM
 
